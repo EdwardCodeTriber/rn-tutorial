@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.thapelocode.rntutorial"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,17 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ae87e149-eb65-447e-8fd0-c1d1b1997042"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ae87e149-eb65-447e-8fd0-c1d1b1997042"
     }
   }
 }
